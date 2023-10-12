@@ -1,0 +1,84 @@
+body{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #272829;
+}
+.player1{
+   
+    background-color: #183D3D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 15px;
+    width: 60%;
+    height: 400px;
+}
+.input1{
+    width: 450px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.submite1{
+    font-family: Arial;
+    background-color: #93B1A6;
+    width: 250px;
+    cursor: pointer;
+    margin-top: 10px;
+    color:#183D3D ;
+    font-weight: bold;
+}
+.playerh1{
+    font-family: Arial;
+    margin-bottom: 160px;
+    color: #93B1A6;
+    font-weight: bold;
+}
+.game{
+   display: none; 
+    background-color: #7D7C7C;
+    color: #FFF6E0;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 15px;
+  width: 60%;
+  height: 400px;
+}
+.status{
+    font-family: Arial;
+    font-weight: bold;
+}
+h1{
+    font-family: Arial;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+.input{
+    font-family: Arial;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.submite{
+    background-color: #7D7C7C;
+    color: #fff;
+    font-family: Arial;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+div h2{
+    font-family: Arial;
+    margin-top: 70px;
+    
+    
+}
+.lastLine{
+width: 300px;
+margin: auto;
+}

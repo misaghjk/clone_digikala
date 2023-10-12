@@ -1,0 +1,221 @@
+:root{
+    --bgcolor1: #FFFFFF;
+    --bgcolor2:  #F7F7F7;
+    --textcolor:#8185A5;
+    --txtheader:#A5A7AB;
+}
+body{
+    background-color: var(--bgcolor1);
+    font-family: Vazir, serif;
+}
+header{
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+}
+.top{
+    display: flex;
+    justify-content: stretch;
+}
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: stretch;
+}
+.digikala{
+    margin-right: 15px;
+}
+
+.input1{
+    width: 600px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    color: var(--textcolor);
+    font-size: 13px;
+    font-family: Vazir, serif;
+}
+.right{
+    display: flex;
+    justify-content: stretch;
+ }
+label{
+    margin-right: 20px;
+    display: flex;
+    border-radius: 7px;
+    background-color:var(--bgcolor2);
+}
+.icon{
+    margin: 0 10px 0 15px;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+.left{
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    width: 50%;
+    text-align: center;
+}
+.btn{
+    outline: none;
+    border-radius: 8px;
+    width: 134px;
+    height: 40px;
+    font-family: Vazir, serif;
+    background: none;
+    border: 2px solid var(--bgcolor2);
+    font-weight: bold;
+}
+.login{
+    padding-left: 4px;
+    vertical-align: middle;
+    margin-left: 2px;
+    width: 24px;
+    height: 24px;
+
+}
+.btn-shop{
+    border: none;
+    background: none;
+}
+.shop{
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+}
+.line{
+    width: 2px;
+    height: 20px;
+    margin: 10px 10px 0 15px;
+    background-color:var(--bgcolor2);
+
+}
+.right2{
+    display: flex;
+    width: 80%;
+    font-family: Vazir, serif;
+}
+
+.menubar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 16px;
+    border-left: var(--bgcolor2) solid 1px;
+    padding-left: 15px;
+}
+.burger{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 0 5px;
+    width: 17px;
+    height: 17px;
+}
+.linemen{
+    width: 2px;
+    height: 20px;
+    margin: 3px 18px 0 15px;
+    background-color:var(--bgcolor2);
+}
+.Percenttxt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 16px;
+    font-size: 12px;
+    color: var(--txtheader);
+}
+
+.Percent{
+    display: flex;
+    justify-content: center;
+    margin: 3px 0 0 5px;
+    width: 17px;
+    height: 17px;
+}
+.market{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 16px;
+    font-size: 12px;
+    color: var(--txtheader);
+}
+.iconmarket{
+    display: flex;
+    justify-content: center;
+    margin: 3px 10px 0 5px;
+    width: 17px;
+    height: 17px;
+}
+.giftcart{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 16px;
+    font-size: 12px;
+    color: var(--txtheader);
+}
+.giftcartimg{
+    display: flex;
+    justify-content: center;
+    margin: 3px 10px 0 5px;
+    width: 17px;
+    height: 17px;
+}
+.firetx{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 16px;
+    font-size: 12px;
+    color: var(--txtheader);
+    border-left: var(--bgcolor2) solid 1px;
+    padding-left: 15px;
+}
+.fireicon{
+    display: flex;
+    justify-content: center;
+    margin: 3px 10px 0 5px;
+    width: 17px;
+    height: 17px;
+}
+.question{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 16px;
+    font-size: 12px;
+    color: var(--txtheader);
+}
+.indigikalah{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 16px;
+    font-size: 12px;
+    color: var(--txtheader);
+}
+.location{
+    display: flex;
+    justify-content: center;
+    margin: 3px 10px 0 5px;
+    width: 17px;
+    height: 17px;
+}
+.left2{
+    justify-content: left;
+    font-size: 12px;
+    color: #000;
+    width: 20%;
+    vertical-align: center;
+    display: flex;
+    margin-left: 20px;
+}
+.locationapshon{
+    display: flex;
+    float: left;
+}
